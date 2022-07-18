@@ -1,0 +1,38 @@
+
+.guessApp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wordBox{
+    border: 1px black solid;
+    padding: 1rem;
+    background: #f5deb3;
+    width: 2rem;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.keyboard{
+    max-width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keyboardLetter{
+    border: 1px black solid;
+    padding: 1rem;
+    width: 3rem;
+}
+
+.clicked-bg-color{
+    background: gray;
+}
+
+.result{
+    background-color: green;
+    border-radius: 1rem;
+    color: #fff;
+    margin-top: 0.8rem;
+    padding: 1rem;
+}
