@@ -3,7 +3,7 @@ import GuessBox from "./guessBox";
 import ScoreCard from "./scoreCard";
 import "./index.css";
 
-export default function Guess () {
+export default function Guess() {
     const assignWord = 'HELLOWORLD';
     let wordLength = assignWord.length;
     const [attempts, setAttempts] = useState(0);
@@ -147,9 +147,9 @@ export default function Guess () {
     ]);
 
     useEffect(() => {
-        if(currentScoreCard){
+        if (currentScoreCard) {
             let item = [];
-            if(finalScoreCard){
+            if (finalScoreCard) {
                 finalScoreCard.map(h => {
                     item.push(h);
                 });
@@ -160,9 +160,9 @@ export default function Guess () {
                 setFinalScoreCard(item);
             }
         }
-    },[currentScoreCard]);
+    }, [currentScoreCard]);
 
-    return(
+    return (
         <div className="flex justify-between m-4">
             <div>
                 <GuessBox

@@ -1,10 +1,9 @@
-
-.guessApp{
+.guessApp {
     display: flex;
     justify-content: space-between;
 }
 
-.wordBox{
+.wordBox {
     border: 1px black solid;
     padding: 1rem;
     background: #f5deb3;
@@ -13,23 +12,23 @@
     margin-left: 0;
 }
 
-.keyboard{
+.keyboard {
     max-width: 30rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.keyboardLetter{
+.keyboardLetter {
     border: 1px black solid;
     padding: 1rem;
     width: 3rem;
 }
 
-.clicked-bg-color{
+.clicked-bg-color {
     background: gray;
 }
 
-.result{
+.result {
     background-color: green;
     border-radius: 1rem;
     color: #fff;

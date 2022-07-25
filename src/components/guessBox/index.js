@@ -131,7 +131,7 @@ export default function GuessBox(
                             return (
                                 <button
                                     className={`keyboardLetter ${clickedState
-                                        ? ( handleClickedStateKeyBoard(item)
+                                        ? (handleClickedStateKeyBoard(item)
                                             ? 'clicked-bg-color'
                                             : '')
                                         : (item.clicked ? 'clicked-bg-color' : '')}`

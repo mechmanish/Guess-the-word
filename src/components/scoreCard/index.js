@@ -5,7 +5,7 @@ export default function ScoreCard(
     { wordLength, scorePoints, finalScoreCard, clickedState, setClickedState }
 ) {
 
-    //To handle clicked attempt
+    //To handle clicked attempt 
     function handleClickState(data) {
         setClickedState(data);
     }

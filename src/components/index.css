@@ -1,11 +1,11 @@
-.flex{
+.flex {
     display: flex;
 }
 
-.justify-between{
+.justify-between {
     justify-content: space-between;
 }
 
-.m-4{
+.m-4 {
     margin: 1rem;
 }
